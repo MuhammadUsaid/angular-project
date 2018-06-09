@@ -1,0 +1,8 @@
+<div class="users">
+  <div class="list">
+    <h1>Users</h1>
+    <div class="list-item" *ngFor="let user of users">
+      <a routerLink="/userdata" ><span (click)="showUser(user)">{{user.name.first}} {{user.name.last}}</span></a>
+    </div>
+  </div>
+</div>

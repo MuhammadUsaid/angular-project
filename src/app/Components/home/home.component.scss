@@ -1,0 +1,35 @@
+
+.header{
+    text-align: center;
+    font-family: Arial;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+h1{
+    color: black; 
+    background-color: blueviolet;
+}
+.color-dark{
+    background-color: #00aa00;
+}
+.color-light{
+    background-color: #00dd00;
+}
+input{
+    margin: 3px;
+}
+.goals-container{
+    background-color: #11cc00;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    background-color: #8c1aff;
+}
+.btn:hover{
+    background-color: #a64dff;
+    border-radius: 10px;
+    cursor: pointer;
+}

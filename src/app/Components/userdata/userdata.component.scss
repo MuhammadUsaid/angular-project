@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background: url('image1.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 47px);
+    position:relative;
+    top:0px;
+    padding-top: 100px;
+}
+table{
+    padding:0px;
+    margin:5px 5px;
+}
+img{
+    height: 100px;
+}

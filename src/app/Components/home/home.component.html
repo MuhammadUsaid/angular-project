@@ -1,0 +1,25 @@
+<div class="header">
+    <h1>ToDo App</h1>
+</div>
+<div class="color-dark container">
+  <div class="col">
+    <p>Add Your Goals</p>
+  </div>
+  <div class="col">
+    <p>Your Total Goals {{totalCount}}</p>
+  </div>
+</div>
+<div class="color-light container">
+  <div class="col">
+    <p>Enter Your Goals in the Form Below.</p>
+    <form>
+      <input type="text" class="txt" name="item" placeholder="My First Todo..." [(ngModel)]="goalText" />
+      <input type="submit" (click)="addItem()" class="btn" value="Add Goal">
+    </form>
+  </div>
+  <div class="col">
+    <p class="goals-container" *ngFor="let goal of goals let i = index">
+      {{goal}} <input type="button" value="Done" class="btn" (click)="removeItem(i)">
+    </p>
+  </div>
+</div>

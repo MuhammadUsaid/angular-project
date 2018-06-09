@@ -1,0 +1,17 @@
+.list{
+    background-color: #809fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+}
+.list-item{
+    color: white;
+}
+.list-item:hover{
+    background-color: #99b3ff;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+body{
+    background:#b3d9ff;
+}
+.navigation{
+    background-color:blueviolet;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+li{
+    float: left;
+}
+body{
+    background:#b3d9ff;
+}

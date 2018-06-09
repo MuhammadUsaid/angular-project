@@ -1,0 +1,21 @@
+<div class="container">
+  <img [src]="user.picture.large" style="border-radius: 50%" alt="userpic">
+  <table>
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Name: </th>
+        <td>{{user.firstName | titlecase}} {{user.lastName | titlecase}}</td>
+      </tr>
+      <tr>
+        <th>Gender: </th>
+        <td>{{user.gender | titlecase}}</td>
+      </tr>
+      <tr>
+        <th>Email: </th>
+        <td>{{user.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
